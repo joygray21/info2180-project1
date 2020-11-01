@@ -34,6 +34,16 @@ li{
     padding: 3px;
 }
 
+
+.overview-hero-image{
+    padding-left: 100px;
+}
+
+.overview-hero-text{
+    padding-right: 160px;
+}
+
+
 .overview-hero-image img{
     float: left;
     padding-right: 20px;
@@ -42,4 +52,10 @@ li{
 .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 100px;
+    padding-right: 100px;;
+}
+
+.card{
+    padding-right: 15px;
 }
