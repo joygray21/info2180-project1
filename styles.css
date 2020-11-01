@@ -65,9 +65,10 @@ li{
     padding-right: 20px;
 }
 
-/* .learn-about{
-    margin:100px;
-} */
+.learn-about .container{
+    margin-bottom:20px;
+}
+
 .learn-about h2{
     font-size: 24px;
     color: #48BB78;
@@ -86,7 +87,7 @@ li{
     margin-right: 12px;
     border: solid #E2E8F0;
     border-radius: 5px;
-    box-shadow: 1px;
+    box-shadow: 1px 1px #E2E8F0;
 }
 
 .card h3{
@@ -98,8 +99,12 @@ li{
     height: 150px;
 }
 
-.testing .container{
+.testing{
     background-color: #4A5568;
+}
+
+.testing .container{
+    /* background-color: #4A5568; */
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -127,8 +132,28 @@ li{
 }
 
 .stories .container img{
-    border-radius: 50%;
+    border-radius: 100%;
+    height: 100%;
+    width: 100px;    
+    /* float: left; */
+    padding-right: 20px;
 }
+
+/* article{
+    overfloW: hidden;
+} */
+ 
+article img{
+    float: left;
+} 
+
+/* article div{
+    float: right;
+} */
+
+/* .article-body{
+    float: right;
+} */
 
 .article-body a{
     color: #5A67D8;
@@ -138,16 +163,21 @@ li{
     font-size: 18px;
 }
 
-.newsletter .container{
+.newsletter{
     background-color: #48BB78;
+}
+
+.newsletter .container{
+    /* background-color: #48BB78; */
     color: white;
+    /* clear: both; */
 }
 
 .newsletter .container button{
     background-color: #5A67D8;
 }
 
-footer .container{
+footer{
     background-color: #4A5568;
     color: white;
 }
