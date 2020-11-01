@@ -51,18 +51,27 @@ li{
     background-color: #E2E8F0;
 }
 
+.overview-hero .container{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
 .overview-hero-image{
     padding-left: 100px;
+    float: left;
 }
 
 .overview-hero-text{
     padding-right: 160px;
+    /* padding-bottom: 35px; */
 }
 
 
 .overview-hero-image img{
-    float: left;
+    /* float: left; */
     padding-right: 20px;
+    height: 100%;
+    width: 200px;
 }
 
 .learn-about .container{
