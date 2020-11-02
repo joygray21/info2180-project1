@@ -26,6 +26,7 @@ header div{
 
 nav ul li a{
     color: #6b7280;
+    text-decoration: none;
 }
 
 nav ul li a:hover{
@@ -160,6 +161,11 @@ li{
     height: max-content;
     width: max-content;
     padding: 10px;
+}
+
+.cta a{
+    color: white;
+    text-decoration: none;
 }
 
 .stories .container{
