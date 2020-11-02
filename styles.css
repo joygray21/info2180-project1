@@ -209,18 +209,28 @@ article{
 
 .newsletter{
     background-color: #48BB78;
+    /* display: flex;
+    justify-content: center;
+    align-items: center ; */
+    text-align: center;
 }
 
 .newsletter .container{
-    /* background-color: #48BB78; */
+    /* height: 200px; */
     color: white;
-    /* clear: both; */
+    /* text-align: center; */
+    /* display: flex; */
+    /* justify-items: center; */
+    /* align-items: center ; */
 }
 
 .newsletter .container button{
     background-color: #5A67D8;
 }
 
+form{
+    display: inline;
+}
 footer{
     background-color: #4A5568;
     color: white;
