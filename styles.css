@@ -125,8 +125,8 @@ li{
     grid-template-columns: 300px 300px 150px;
     /* grid-template-columns: auto auto min-content ; */
     padding-left: 160px;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     /* justify-content: space-between; */
     /* align-content: center; */
     gap: 40px;
@@ -171,6 +171,8 @@ li{
 .stories .container{
     padding-left: 200px; /* 160*/
     /* padding-right: 150px; */
+    padding-top: 55px;
+    padding-bottom: 55px;
 }
 
 .stories .container h2{
