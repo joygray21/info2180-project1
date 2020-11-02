@@ -218,6 +218,7 @@ article{
 .newsletter .container{
     /* height: 200px; */
     color: white;
+    padding: 20px;
     /* text-align: center; */
     /* display: flex; */
     /* justify-items: center; */
@@ -229,9 +230,37 @@ article{
 }
 
 form{
-    display: inline;
+    /* display: inline!important; */
+    display: flex;
+    /* flex-flow: row wrap;*/
+    align-items: center; 
+    justify-content: center;
 }
+
+.form-group{
+    margin: 20px;
+}
+
+.form-group input{
+    padding: 15px;
+    border: 1px white;
+    border-radius: 5px;
+    color: white;
+}
+
+form button{
+    color: white;   
+    border-radius: 5px;
+    border: 1px white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    width: max-content;
+}
+
 footer{
     background-color: #4A5568;
     color: white;
+    padding: 15px;
 }
