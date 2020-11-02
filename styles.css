@@ -245,7 +245,7 @@ form{
     padding: 15px;
     border: 1px white;
     border-radius: 5px;
-    color: white;
+    /* color: white; */
 }
 
 form button{
