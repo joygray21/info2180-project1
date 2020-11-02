@@ -173,9 +173,9 @@ li{
 
 .stories .container img{
     border-radius: 100%;
-    height: 100%;
-    width: 100px;    
-    /* float: left; */
+    height: 150px;
+    width: 150px;    
+    float: left;
     padding-right: 20px;
 }
 
@@ -183,9 +183,9 @@ li{
     overfloW: hidden;
 } */
  
-article img{
+/* article img{
     float: left;
-} 
+}  */
 
 /* article div{
     float: right;
@@ -194,6 +194,10 @@ article img{
 /* .article-body{
     float: right;
 } */
+
+article{
+    height: 200px;
+}
 
 .article-body a{
     color: #5A67D8;
